@@ -17,7 +17,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "PSA: It's still shipping apocalypse with the global supply chain thing, so please order holiday gifts early! Large non-UPS shipping is unpredictable currently",
               "color_scheme": "background-1",
               "link": ""
             }
