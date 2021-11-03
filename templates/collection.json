@@ -1,14 +1,67 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1635928757caa8d767": {
+      "type": "collection-list",
+      "blocks": {
+        "1635928757caa8d767-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hat"
+          }
+        },
+        "1635928757caa8d767-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "1635928757caa8d767-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pants"
+          }
+        }
+      },
+      "block_order": [
+        "1635928757caa8d767-0",
+        "1635928757caa8d767-1",
+        "1635928757caa8d767-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "1635928757caa8d767"
   ]
 }
