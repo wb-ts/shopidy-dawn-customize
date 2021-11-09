@@ -348,7 +348,7 @@
       </h1>
     {%- endif -%}
 
-    {% comment %} {%- if section.settings.menu != blank -%}
+    {%- if section.settings.menu != blank -%}
       <nav class="header__inline-menu">
         <ul class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
@@ -398,7 +398,7 @@
           {%- endfor -%}
         </ul>
       </nav>
-    {%- endif -%} {% endcomment %}
+    {%- endif -%}
 
     <div class="header__icons">
       <details-modal class="header__search">
