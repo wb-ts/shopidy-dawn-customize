@@ -64,8 +64,8 @@
     "test": {
       "type": "test",
       "blocks": {
-        "video": {
-          "type": "video",
+        "image": {
+          "type": "image",
           "settings": {
           }
         },
@@ -73,17 +73,10 @@
           "type": "product",
           "settings": {
           }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
+        "product"
       ],
       "settings": {
       }
