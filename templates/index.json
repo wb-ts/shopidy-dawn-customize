@@ -76,6 +76,7 @@
         }
       },
       "block_order": [
+        "image",
         "product"
       ],
       "settings": {
