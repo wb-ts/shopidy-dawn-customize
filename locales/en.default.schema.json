@@ -263,6 +263,77 @@
         "name": "Apps"
       }
     },
+    "test": {
+      "name": "Test",
+      "settings": {
+        "heading": {
+          "label": "TEST Heading"
+        },
+        "desktop_layout": {
+          "label": "TEST Desktop layout",
+          "options__1": {
+            "label": "TEST options__1 Left large block"
+          },
+          "options__2": {
+            "label": "TEST options__2 Right large block"
+          }
+        },
+        "mobile_layout": {
+          "label": "Test Mobile layout",
+          "options__1": {
+            "label": "Test Option__1  Collage"
+          },
+          "options__2": {
+            "label": "Test Option__2 Column"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "Test Image",
+          "settings": {
+            "image": {
+              "label": "Test Image"
+            },
+            "image_padding": {
+              "label": "Add image padding Test",
+              "info": "Test : Select image padding if you don't want your image to be cropped."
+            },
+            "color_scheme": {
+              "options__1": {
+                "label": "Test Accent 1"
+              },
+              "options__2": {
+                "label": "Test Accent 2"
+              },
+              "label": "Test Color scheme",
+              "info": "Test Select image padding to make color visible."
+            }
+          }
+        },
+        "product": {
+          "name": "Test Product",
+          "settings": {
+            "product": {
+              "label": "Test Product"
+            },
+            "secondary_background": {
+              "label": "Test Show secondary background"
+            },
+            "second_image": {
+              "label": "Test Show second image on hover"
+            },
+            "image_padding": {
+              "label": "Test Add image padding",
+              "info": "Test : Select image padding if you don't want your images to be cropped."
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Test"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {
