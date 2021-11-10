@@ -53,6 +53,19 @@
       "settings": {
       }
     },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "image_ratio": "square"
+      }
+    },
+    "test": {
+      "type": "test",
+      "settings": {
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -114,8 +127,10 @@
     }
   },
   "order": [
+    "test",
     "image_banner",
     "rich_text",
+    "featured_products",
     "collage",
     "video",
     "multi_column"
