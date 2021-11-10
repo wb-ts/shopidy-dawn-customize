@@ -63,6 +63,28 @@
     },
     "test": {
       "type": "test",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ],
       "settings": {
       }
     },
